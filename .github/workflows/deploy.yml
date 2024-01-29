@@ -27,4 +27,4 @@ jobs:
       uses: docker/setup-action@v2
 
     - name: Deploy to Docker Desktop
-      run: docker run -p 3000:3000 tibcotestapp
+      run: docker run -d --restart=always -p 3000:3000 tibcotestapp
