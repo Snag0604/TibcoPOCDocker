@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pde version="3.6"?>
+
+<target name="bw-runtime">
+<locations>
+
+<location path="/C:/Program Files/tibco/bwce/bwce/2.8/config/drivers/shells/jdbc.oracle.runtime//hotfix/runtime/plugins" type="Directory"/>
+<location path="/C:/Program Files/tibco/bwce/bwce/2.8/config/drivers/shells/jdbc.oracle.runtime//runtime/plugins" type="Directory"/>
+<location path="/C:/Program Files/tibco/bwce/bwce/palettes/as/8.0//hotfix/runtime/plugins" type="Directory"/>
+<location path="/C:/Program Files/tibco/bwce/bwce/palettes/as/8.0//runtime/plugins" type="Directory"/>
+<location path="/C:/Program Files/tibco/bwce/bwce/palettes/cdc/6.0//hotfix/runtime/plugins" type="Directory"/>
+<location path="/C:/Program Files/tibco/bwce/bwce/palettes/cdc/6.0//runtime/plugins" type="Directory"/>
+<location path="/C:/Program Files/tibco/bwce/bwce/palettes/kafka/6.7//hotfix/runtime/plugins" type="Directory"/>
+<location path="/C:/Program Files/tibco/bwce/bwce/palettes/kafka/6.7//runtime/plugins" type="Directory"/>
+<location path="/C:/Program Files/tibco/bwce/bwce/palettes/qrcode-ce/6.0//hotfix/runtime/plugins" type="Directory"/>
+<location path="/C:/Program Files/tibco/bwce/bwce/palettes/qrcode-ce/6.0//runtime/plugins" type="Directory"/>
+<location path="/C:/Program Files/tibco/bwce/bwce/palettes/redis/6.0//hotfix/runtime/plugins" type="Directory"/>
+<location path="/C:/Program Files/tibco/bwce/bwce/palettes/redis/6.0//runtime/plugins" type="Directory"/>
+
+
+<location path="C:/Program Files/tibco/bwce/bwce/2.8/system/hotfix/lib/common" type="Directory"/>
+<location path="C:/Program Files/tibco/bwce/bwce/2.8/system/lib/common" type="Directory"/>
+
+<location path="C:/Program Files/tibco/bwce/bwce/2.8/system/hotfix/palettes" type="Directory"/>
+<location path="C:/Program Files/tibco/bwce/bwce/2.8/system/palettes" type="Directory"/>
+
+<location path="C:/Program Files/tibco/bwce/bwce/2.8/system/hotfix/shared" type="Directory"/>
+<location path="C:/Program Files/tibco/bwce/bwce/2.8/system/shared" type="Profile"/>
+</locations>
+</target>
