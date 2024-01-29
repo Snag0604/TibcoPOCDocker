@@ -1,0 +1,30 @@
+name: Deploy Tibco BW to Docker Desktop
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Docker
+      uses: docker/setup-action@v2
+
+    - name: Build the Docker image
+      run: docker build -t tibcotestapp .
+
+  deploy:
+    runs-on: windows-latest
+    needs: build
+    steps:
+    - name: Set up Docker
+      uses: docker/setup-action@v2
+
+    - name: Deploy to Docker Desktop
+      run: docker run -p 3000:3000 tibcotestapp
