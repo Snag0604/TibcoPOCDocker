@@ -15,8 +15,6 @@ jobs:
 
     - name: Set up Docker
       uses: docker/setup-buildx-action@v2
-      with:
-        dockerfile: Dockerfile
 
     - name: Build the Docker image
       run: docker build -t tibcotestapp .
