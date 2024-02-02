@@ -30,4 +30,4 @@ jobs:
       uses: docker/setup-buildx-action@v3
 
     - name: Deploy to Docker Desktop
-      run: docker run -e "BW_APP_MONITORING_CONFIG={\"url\":\"http://172.17.0.4:38080\"}" --net=host -d -p 32001:32001 tibcotestapp
+      run: docker run -e "BW_APP_MONITORING_CONFIG={\"url\":\"http://172.17.0.4:38080\"}" --net=host -d -p 32001:32001 docker.io/library/tibcotestapp:latest
