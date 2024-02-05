@@ -6,12 +6,7 @@ on:
       - master
 jobs:
   build:
-    runs-on: ubuntu-latest
-    services:
-      registry:
-        image: registry:2
-        ports:
-          - 5000:5000
+    runs-on: self-hosted
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
@@ -23,7 +18,7 @@ jobs:
       run: docker build -t tibcotestapp .
 
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     needs: build
     steps:
     - name: Set up Docker
