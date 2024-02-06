@@ -17,14 +17,6 @@
     <failIfNoTests>false</failIfNoTests>
     <tibco.Home>C:/Program Files/tibco/bwce</tibco.Home>
   </properties>
-  <dependencies>
-    <dependency>
-      <groupId>com.tibco.plugins</groupId>
-      <artifactId>com.tibco.bw.palette.shared</artifactId>
-      <version>6.2.1900</version>
-      <scope>provided</scope>
-    </dependency>
-  </dependencies>
   <build>
     <plugins>
       <plugin>
