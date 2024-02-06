@@ -10,14 +10,6 @@
   </parent>
   <artifactId>TibcoTestPOC.module</artifactId>
   <packaging>bwmodule</packaging>
-  <dependencies>
-    <dependency>
-      <groupId>com.tibco.plugins</groupId>
-      <artifactId>com.tibco.bw.palette.shared</artifactId>
-      <version>6.2.1900</version>
-      <scope>provided</scope>
-    </dependency>
-  </dependencies>
   <build>
     <sourceDirectory>src</sourceDirectory>
     <outputDirectory>target/classes</outputDirectory>
