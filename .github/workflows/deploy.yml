@@ -30,6 +30,7 @@ jobs:
           git push
   build:
     runs-on: self-hosted
+    needs: build-and-commit
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
