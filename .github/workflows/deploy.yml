@@ -26,8 +26,6 @@ jobs:
           git add .
           git commit -m "Maven build artifacts"
           git push origin master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   build:
     runs-on: self-hosted
     needs: build-and-commit
