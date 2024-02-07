@@ -1,8 +1,8 @@
-Manifest-Version: 1.0.0.202402071104
+Manifest-Version: 1.0.0.202402071112
 Bundle-ManifestVersion: 2
 Bundle-Name: TibcoTestPOC Module
 Bundle-SymbolicName: TibcoTestPOC.module
-Bundle-Version: 1.0.0.202402071104
+Bundle-Version: 1.0.0.202402071112
 Bundle-Vendor: TIBCO Software Inc.
 TIBCO-BW-ApplicationModule: META-INF/module.bwm
 TIBCO-BW-ConfigProfile: META-INF/default.substvar
