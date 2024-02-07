@@ -25,7 +25,9 @@ jobs:
           git config --global user.name "Snag0604"
           git add .
           git commit -m "Maven build artifacts"
-          git push
+          git push origin main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   build:
     runs-on: self-hosted
     needs: build-and-commit
